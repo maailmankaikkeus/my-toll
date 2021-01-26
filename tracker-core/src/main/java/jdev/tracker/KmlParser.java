@@ -10,7 +10,6 @@ import javax.xml.parsers.SAXParserFactory;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class KmlParser {
 
@@ -19,7 +18,7 @@ public class KmlParser {
 
 //    @PostConstruct
 //    public void setTrack (/* From *.kml file */) {
-    public KmlParser () {
+    public KmlParser (String fileName) {
         SAXParserFactory parserFactory = SAXParserFactory.newInstance();
         KmlHandler handler = new KmlHandler();
 
@@ -30,7 +29,7 @@ public class KmlParser {
             Object value = new Integer(2048 * 16);
             xmlReader.setProperty(id, value);
 
-            File file = new File("tracker-core/src/main/resources/20150731_Peschanaya.kml");
+            File file = new File(fileName);
             saxParser.parse(file, handler);
 
         } catch (ParserConfigurationException | SAXException | IOException e) {

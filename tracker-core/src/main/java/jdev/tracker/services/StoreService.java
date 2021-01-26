@@ -9,7 +9,7 @@ import java.util.concurrent.LinkedBlockingDeque;
 
 public class StoreService {
 
-    private final BlockingDeque<PointDTO> storage = new LinkedBlockingDeque<>();
+    protected final BlockingDeque<PointDTO> storage = new LinkedBlockingDeque<>();
 
     public void put(PointDTO point) throws InterruptedException {
         storage.put(point);

@@ -1,8 +1,7 @@
 package jdev.tracker.services;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import jdev.dto.PointDTO;
-import jdev.dto.TrackDTO;
+import jdev.dto.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +13,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @Service
 public class DispatchService {
@@ -23,18 +21,24 @@ public class DispatchService {
     private static final Logger log = LoggerFactory.getLogger(DispatchService.class);
     private static final String uri = "http://localhost:8080/upload";
 
-    @Autowired
     private StoreService storeService;
+    private RestTemplate restTemplate;
 
-    private RestTemplate restTemplate = new RestTemplate();
+    public DispatchService(@Autowired StoreService storeService,
+                           @Autowired RestTemplate restTemplate) {
+        this.storeService = storeService;
+        this.restTemplate = restTemplate;
+    }
+
+//    private RestTemplate restTemplate = new RestTemplate();
 
     @Scheduled(fixedRateString = "${sendingPeriod.prop}",
             initialDelayString = "${initialDelay.prop}")
-    public void takeAll() throws InterruptedException, JsonProcessingException {
-        send(storeService.takeAll());
+    private void send() throws InterruptedException, JsonProcessingException {
+        post(storeService.takeAll());
     }
 
-    public void send(ArrayList<PointDTO> points) throws JsonProcessingException {
+    public TrackDTO post(ArrayList<PointDTO> points) throws JsonProcessingException {
 
         if (!points.isEmpty()) {
             log.info("___Dispatching " + points.size() + " track points:");
@@ -43,20 +47,24 @@ public class DispatchService {
             TrackDTO td = new TrackDTO(points);
             HttpEntity<TrackDTO> requestEntity = new HttpEntity<>(td, headers);
 
-//            restTemplate.postForObject(uri, td, String.class);
+            TrackDTO response = restTemplate.postForObject(uri, td, TrackDTO.class);
 //            restTemplate.postForObject(uri, requestEntity, String.class);
 //            restTemplate.postForLocation(uri, td);
 //            restTemplate.postForLocation(uri, requestEntity);
 //            restTemplate.postForEntity(uri, td, String.class);
 //            restTemplate.postForEntity(uri, requestEntity, String.class);
 //            restTemplate.exchange(uri, HttpMethod.POST, requestEntity, String.class);
-            ResponseEntity<TrackDTO> response =
-                    restTemplate.exchange(uri, HttpMethod.POST, requestEntity, TrackDTO.class);
+//            ResponseEntity<TrackDTO> response =
+//                    restTemplate.exchange(uri, HttpMethod.POST, requestEntity, TrackDTO.class);
 
-            log.info(response.getBody().toJson());
+//            log.info(response.getBody().toJson());
+            if (response != null)
+                log.info(response.toJson());
 
-            extractJsonPoints(points).forEach(log::info);
+            extractJsonPoints(points).forEach(log::info)            ;
+            return response;
         }
+        return null;
     }
 
         private List<String> extractJsonPoints(ArrayList<PointDTO> points) throws JsonProcessingException {

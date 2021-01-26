@@ -9,6 +9,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.scheduling.TaskScheduler;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
+import org.springframework.web.client.RestTemplate;
 
 
 @Configuration
@@ -16,23 +17,22 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 @PropertySource("classpath:/tracker-core.properties")
 public class TrackerContext {
 
+    private final String kmlFileName = "tracker-core/src/main/resources/20150731_Peschanaya.kml";
+
     @Bean
     public GpsService gpsService() {
-        return new GpsService();
+        return new GpsService(new KmlParser(kmlFileName), storeService());
     }
 
     @Bean
     public DispatchService dispatchService() {
-        return new DispatchService();
+        return new DispatchService(storeService(), new RestTemplate());
     }
 
     @Bean
     public StoreService storeService() {
         return new StoreService();
     }
-
-    @Bean
-    public KmlParser kmlParser() { return new KmlParser(); }
 
     @Bean
     public TaskScheduler poolScheduler() {
