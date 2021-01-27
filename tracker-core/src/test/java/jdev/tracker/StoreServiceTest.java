@@ -1,5 +1,6 @@
 package jdev.tracker;
 
+import jdev.dto.ITestConstants;
 import jdev.dto.PointDTO;
 import jdev.tracker.services.StoreService;
 import org.junit.Test;
@@ -8,13 +9,10 @@ import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
-public class StoreServiceTest {
+public class StoreServiceTest implements ITestConstants {
 
     @Test
     public void putAndTakeAll () throws InterruptedException {
-        PointDTO testPoint      = new PointDTO("1", "2", "3", 4L);
-        PointDTO testPointFalse = new PointDTO("1", "2", "3", 5L);
-
         StoreService storeService = new StoreService();
         storeService.put(testPoint);
         storeService.put(testPoint);
