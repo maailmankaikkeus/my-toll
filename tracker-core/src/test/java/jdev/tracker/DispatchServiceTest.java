@@ -44,7 +44,7 @@ public class DispatchServiceTest implements ITestConstants {
         ArrayList<PointDTO> testPointList = new ArrayList<PointDTO>() {{ add(testPoint); add(testPoint); }};
         TrackDTO result = new DispatchService(new StoreService(), new RestTemplate()).post(testPointList);
         assertEquals(new TrackDTO(testPointList).toJson(), result.toJson());
-        System.out.println(result.getTrack().toString());
+        System.out.println("###" + result.toJson());
     }
 
 }
