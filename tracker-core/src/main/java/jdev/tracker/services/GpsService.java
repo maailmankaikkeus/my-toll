@@ -5,18 +5,9 @@ import jdev.tracker.KmlParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.Random;
 
 @Service
 public class GpsService {
-
-//    @Autowired
-//    private StoreService storeService;
-
-//    @Autowired
-//    private KmlParser kmlParser;
 
     private KmlParser       kmlParser;
     private StoreService    storeService;
@@ -42,21 +33,4 @@ public class GpsService {
     public StoreService getStoreService() {
         return storeService;
     }
-
-//    getPoint() mock
-//
-//        @Scheduled(fixedRateString = "${gettingPeriod.prop}")
-//        public void getPoint() throws Exception {
-//            PointDTO point = new PointDTO(
-//                    "213.1",
-//                    "565.8",
-//                    "F777EE7H",
-//                    System.currentTimeMillis());
-//            sendPoint(point);
-//        }
-//
-//        void sendPoint(PointDTO point) throws Exception {
-//            storeService.put(point);
-//        }
-
 }

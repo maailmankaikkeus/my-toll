@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"jdev/server/controllers"})
+@ComponentScan({"jdev.server.controllers"})
 public class ServerMain {
 
     public static void main(String[] args) {

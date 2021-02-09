@@ -1,0 +1,658 @@
+2021-02-09 20:39:36.079> [jdev.server.app.ServerMain:48] Starting ServerMain on WIN-34AFSSTV7OA with PID 9068 (C:\javadev\my-toll\server-core\build\classes\java\main started by user in C:\javadev\my-toll)
+2021-02-09 20:39:36.086> [jdev.server.app.ServerMain:637] No active profile set, falling back to default profiles: default
+2021-02-09 20:39:36.337> [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5593c60e: startup date [Tue Feb 09 20:39:36 NOVT 2021]; root of context hierarchy
+2021-02-09 20:39:36.542> [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2021-02-09 20:39:38.436> [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 8080 (http)
+2021-02-09 20:39:38.453> [org.apache.catalina.core.StandardService:179] Starting service Tomcat
+2021-02-09 20:39:38.455> [org.apache.catalina.core.StandardEngine:179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2021-02-09 20:39:38.572> [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] Initializing Spring embedded WebApplicationContext
+2021-02-09 20:39:38.574> [org.springframework.web.context.ContextLoader:276] Root WebApplicationContext: initialization completed in 2237 ms
+2021-02-09 20:39:38.711> [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-09 20:39:38.721> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-09 20:39:38.733> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-09 20:39:38.733> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-02-09 20:39:38.734> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+2021-02-09 20:39:39.049> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5593c60e: startup date [Tue Feb 09 20:39:36 NOVT 2021]; root of context hierarchy
+2021-02-09 20:39:39.132> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/upload],methods=[POST]}" onto public jdev.dto.TrackDTO jdev.server.controllers.TrackerController.receiveWrappedTrackingList(jdev.dto.TrackDTO) throws com.fasterxml.jackson.core.JsonProcessingException
+2021-02-09 20:39:39.134> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-02-09 20:39:39.136> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-02-09 20:39:39.196> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:39:39.210> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:39:39.253> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:39:39.286> [org.springframework.boot.autoconfigure.thymeleaf.AbstractTemplateResolverConfiguration:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-09 20:39:39.725> [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2021-02-09 20:39:39.762> [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] Registering beans for JMX exposure on startup
+2021-02-09 20:39:39.776> [org.apache.coyote.http11.Http11NioProtocol:179] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-09 20:39:39.791> [org.apache.coyote.http11.Http11NioProtocol:179] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-09 20:39:39.806> [org.apache.tomcat.util.net.NioSelectorPool:179] Using a shared selector for servlet write/read
+2021-02-09 20:39:39.830> [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] Tomcat started on port(s): 8080 (http)
+2021-02-09 20:39:39.834> [jdev.server.app.ServerMain:57] Started ServerMain in 4.027 seconds (JVM running for 4.678)
+2021-02-09 20:46:03.941> [jdev.server.app.ServerMain:48] Starting ServerMain on WIN-34AFSSTV7OA with PID 3156 (C:\javadev\my-toll\server-core\build\classes\java\main started by user in C:\javadev\my-toll)
+2021-02-09 20:46:03.944> [jdev.server.app.ServerMain:637] No active profile set, falling back to default profiles: default
+2021-02-09 20:46:04.174> [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f2ce0b0: startup date [Tue Feb 09 20:46:04 NOVT 2021]; root of context hierarchy
+2021-02-09 20:46:04.248> [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2021-02-09 20:46:05.659> [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 8080 (http)
+2021-02-09 20:46:05.668> [org.apache.catalina.core.StandardService:179] Starting service Tomcat
+2021-02-09 20:46:05.671> [org.apache.catalina.core.StandardEngine:179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2021-02-09 20:46:05.788> [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] Initializing Spring embedded WebApplicationContext
+2021-02-09 20:46:05.791> [org.springframework.web.context.ContextLoader:276] Root WebApplicationContext: initialization completed in 1617 ms
+2021-02-09 20:46:05.908> [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-09 20:46:05.911> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-09 20:46:05.912> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-09 20:46:05.913> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-02-09 20:46:05.913> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+2021-02-09 20:46:06.176> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f2ce0b0: startup date [Tue Feb 09 20:46:04 NOVT 2021]; root of context hierarchy
+2021-02-09 20:46:06.273> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/upload],methods=[POST]}" onto public jdev.dto.TrackDTO jdev.server.controllers.TrackerController.receiveWrappedTrackingList(jdev.dto.TrackDTO) throws com.fasterxml.jackson.core.JsonProcessingException
+2021-02-09 20:46:06.284> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-02-09 20:46:06.284> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-02-09 20:46:06.359> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:46:06.361> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:46:06.408> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:46:06.453> [org.springframework.boot.autoconfigure.thymeleaf.AbstractTemplateResolverConfiguration:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-09 20:46:07.050> [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2021-02-09 20:46:07.132> [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] Registering beans for JMX exposure on startup
+2021-02-09 20:46:07.188> [org.apache.coyote.http11.Http11NioProtocol:179] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-09 20:46:07.213> [org.apache.coyote.http11.Http11NioProtocol:179] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-09 20:46:07.232> [org.apache.tomcat.util.net.NioSelectorPool:179] Using a shared selector for servlet write/read
+2021-02-09 20:46:07.259> [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] Tomcat started on port(s): 8080 (http)
+2021-02-09 20:46:07.263> [jdev.server.app.ServerMain:57] Started ServerMain in 3.568 seconds (JVM running for 4.085)
+2021-02-09 20:50:33.617> [jdev.server.app.ServerMain:48] Starting ServerMain on WIN-34AFSSTV7OA with PID 5512 (C:\javadev\my-toll\server-core\build\classes\java\main started by user in C:\javadev\my-toll)
+2021-02-09 20:50:33.619> [jdev.server.app.ServerMain:637] No active profile set, falling back to default profiles: default
+2021-02-09 20:50:33.879> [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f2ce0b0: startup date [Tue Feb 09 20:50:33 NOVT 2021]; root of context hierarchy
+2021-02-09 20:50:33.943> [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2021-02-09 20:50:35.365> [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 8080 (http)
+2021-02-09 20:50:35.380> [org.apache.catalina.core.StandardService:179] Starting service Tomcat
+2021-02-09 20:50:35.382> [org.apache.catalina.core.StandardEngine:179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2021-02-09 20:50:35.496> [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] Initializing Spring embedded WebApplicationContext
+2021-02-09 20:50:35.497> [org.springframework.web.context.ContextLoader:276] Root WebApplicationContext: initialization completed in 1618 ms
+2021-02-09 20:50:35.605> [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-09 20:50:35.609> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-09 20:50:35.610> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-09 20:50:35.611> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-02-09 20:50:35.611> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+2021-02-09 20:50:35.866> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f2ce0b0: startup date [Tue Feb 09 20:50:33 NOVT 2021]; root of context hierarchy
+2021-02-09 20:50:35.938> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/upload],methods=[POST]}" onto public jdev.dto.TrackDTO jdev.server.controllers.TrackerController.receiveWrappedTrackingList(jdev.dto.TrackDTO) throws com.fasterxml.jackson.core.JsonProcessingException
+2021-02-09 20:50:35.943> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-02-09 20:50:35.944> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-02-09 20:50:35.975> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:50:35.978> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:50:36.020> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:50:36.057> [org.springframework.boot.autoconfigure.thymeleaf.AbstractTemplateResolverConfiguration:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-09 20:50:36.480> [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:62] Unable to start LiveReload server
+2021-02-09 20:50:36.555> [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] Registering beans for JMX exposure on startup
+2021-02-09 20:50:36.584> [org.apache.coyote.http11.Http11NioProtocol:179] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-09 20:50:36.597> [org.apache.coyote.http11.Http11NioProtocol:179] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-09 20:50:36.603> [org.apache.coyote.http11.Http11NioProtocol:181] Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at jdev.server.app.ServerMain.main(ServerMain.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2021-02-09 20:50:36.604> [org.apache.catalina.core.StandardService:181] Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at jdev.server.app.ServerMain.main(ServerMain.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	... 19 common frames omitted
+2021-02-09 20:50:36.613> [org.apache.coyote.http11.Http11NioProtocol:179] Pausing ProtocolHandler ["http-nio-8080"]
+2021-02-09 20:50:36.614> [org.apache.catalina.core.StandardService:179] Stopping service Tomcat
+2021-02-09 20:50:36.631> [org.apache.catalina.util.LifecycleBase:179] The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2021-02-09 20:50:36.632> [org.apache.coyote.http11.Http11NioProtocol:179] Stopping ProtocolHandler ["http-nio-8080"]
+2021-02-09 20:50:36.636> [org.apache.coyote.http11.Http11NioProtocol:179] Destroying ProtocolHandler ["http-nio-8080"]
+2021-02-09 20:50:36.643> [org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer:101] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2021-02-09 20:50:36.648> [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2021-02-09 20:50:36.650> [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:987] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f2ce0b0: startup date [Tue Feb 09 20:50:33 NOVT 2021]; root of context hierarchy
+2021-02-09 20:50:36.651> [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+2021-02-09 20:52:54.251> [jdev.server.app.ServerMain:48] Starting ServerMain on WIN-34AFSSTV7OA with PID 3312 (C:\javadev\my-toll\server-core\build\classes\java\main started by user in C:\javadev\my-toll)
+2021-02-09 20:52:54.253> [jdev.server.app.ServerMain:637] No active profile set, falling back to default profiles: default
+2021-02-09 20:52:54.505> [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f2ce0b0: startup date [Tue Feb 09 20:52:54 NOVT 2021]; root of context hierarchy
+2021-02-09 20:52:54.579> [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2021-02-09 20:52:56.014> [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 8080 (http)
+2021-02-09 20:52:56.026> [org.apache.catalina.core.StandardService:179] Starting service Tomcat
+2021-02-09 20:52:56.029> [org.apache.catalina.core.StandardEngine:179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2021-02-09 20:52:56.134> [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] Initializing Spring embedded WebApplicationContext
+2021-02-09 20:52:56.134> [org.springframework.web.context.ContextLoader:276] Root WebApplicationContext: initialization completed in 1629 ms
+2021-02-09 20:52:56.248> [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-09 20:52:56.251> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-09 20:52:56.252> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-09 20:52:56.252> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-02-09 20:52:56.252> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+2021-02-09 20:52:56.501> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f2ce0b0: startup date [Tue Feb 09 20:52:54 NOVT 2021]; root of context hierarchy
+2021-02-09 20:52:56.593> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/upload],methods=[POST]}" onto public jdev.dto.TrackDTO jdev.server.controllers.TrackerController.receiveWrappedTrackingList(jdev.dto.TrackDTO) throws com.fasterxml.jackson.core.JsonProcessingException
+2021-02-09 20:52:56.596> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-02-09 20:52:56.597> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-02-09 20:52:56.632> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:52:56.632> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:52:56.670> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 20:52:56.704> [org.springframework.boot.autoconfigure.thymeleaf.AbstractTemplateResolverConfiguration:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-09 20:52:57.150> [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2021-02-09 20:52:57.196> [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] Registering beans for JMX exposure on startup
+2021-02-09 20:52:57.214> [org.apache.coyote.http11.Http11NioProtocol:179] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-09 20:52:57.222> [org.apache.coyote.http11.Http11NioProtocol:179] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-09 20:52:57.236> [org.apache.tomcat.util.net.NioSelectorPool:179] Using a shared selector for servlet write/read
+2021-02-09 20:52:57.258> [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] Tomcat started on port(s): 8080 (http)
+2021-02-09 20:52:57.263> [jdev.server.app.ServerMain:57] Started ServerMain in 3.258 seconds (JVM running for 3.78)
+2021-02-09 21:18:07.527> [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-02-09 21:18:07.527> [org.springframework.web.servlet.DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2021-02-09 21:18:07.548> [org.springframework.web.servlet.DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2021-02-09 21:18:07.735> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612880282000}
+2021-02-09 21:18:07.735> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612880283000}
+2021-02-09 21:18:07.735> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612880284000}
+2021-02-09 21:18:07.735> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612880285000}
+2021-02-09 21:18:07.735> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612880286000}
+2021-02-09 21:18:07.736> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612880287000}
+2021-02-09 21:18:12.281> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612880282000}
+2021-02-09 21:18:12.282> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612880283000}
+2021-02-09 21:18:12.282> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612880284000}
+2021-02-09 21:18:12.283> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612880285000}
+2021-02-09 21:18:12.283> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612880286000}
+2021-02-09 21:18:12.283> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612880287000}
+2021-02-09 21:18:12.284> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612880288000}
+2021-02-09 21:18:12.284> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612880289000}
+2021-02-09 21:18:12.284> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612880290000}
+2021-02-09 21:18:12.284> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612880291000}
+2021-02-09 21:18:17.274> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612880282000}
+2021-02-09 21:18:17.274> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612880283000}
+2021-02-09 21:18:17.274> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612880284000}
+2021-02-09 21:18:17.274> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612880285000}
+2021-02-09 21:18:17.275> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612880286000}
+2021-02-09 21:18:17.275> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612880287000}
+2021-02-09 21:18:17.275> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612880288000}
+2021-02-09 21:18:17.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612880289000}
+2021-02-09 21:18:17.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612880290000}
+2021-02-09 21:18:17.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612880291000}
+2021-02-09 21:18:17.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91724","lon":"51.70881","autoId":"WDB2020181A712669","time":1612880292000}
+2021-02-09 21:18:17.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.70891","autoId":"WDB2020181A712669","time":1612880293000}
+2021-02-09 21:18:17.277> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.70902","autoId":"WDB2020181A712669","time":1612880294000}
+2021-02-09 21:18:17.277> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70913","autoId":"WDB2020181A712669","time":1612880295000}
+2021-02-09 21:18:17.277> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91700","lon":"51.70923","autoId":"WDB2020181A712669","time":1612880296000}
+2021-02-09 21:18:17.277> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70932","autoId":"WDB2020181A712669","time":1612880297000}
+2021-02-09 21:18:22.267> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612880282000}
+2021-02-09 21:18:22.268> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612880283000}
+2021-02-09 21:18:22.269> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612880284000}
+2021-02-09 21:18:22.269> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612880285000}
+2021-02-09 21:18:22.269> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612880286000}
+2021-02-09 21:18:22.269> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612880287000}
+2021-02-09 21:18:22.269> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612880288000}
+2021-02-09 21:18:22.270> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612880289000}
+2021-02-09 21:18:22.270> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612880290000}
+2021-02-09 21:18:22.270> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612880291000}
+2021-02-09 21:18:22.270> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91724","lon":"51.70881","autoId":"WDB2020181A712669","time":1612880292000}
+2021-02-09 21:18:22.271> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.70891","autoId":"WDB2020181A712669","time":1612880293000}
+2021-02-09 21:18:22.271> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.70902","autoId":"WDB2020181A712669","time":1612880294000}
+2021-02-09 21:18:22.271> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70913","autoId":"WDB2020181A712669","time":1612880295000}
+2021-02-09 21:18:22.271> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91700","lon":"51.70923","autoId":"WDB2020181A712669","time":1612880296000}
+2021-02-09 21:18:22.271> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70932","autoId":"WDB2020181A712669","time":1612880297000}
+2021-02-09 21:18:22.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91691","lon":"51.70941","autoId":"WDB2020181A712669","time":1612880298000}
+2021-02-09 21:18:22.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91687","lon":"51.70950","autoId":"WDB2020181A712669","time":1612880299000}
+2021-02-09 21:18:22.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91688","lon":"51.70961","autoId":"WDB2020181A712669","time":1612880300000}
+2021-02-09 21:18:22.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70972","autoId":"WDB2020181A712669","time":1612880301000}
+2021-02-09 21:18:27.282> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612880282000}
+2021-02-09 21:18:27.283> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612880283000}
+2021-02-09 21:18:27.284> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612880284000}
+2021-02-09 21:18:27.284> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612880285000}
+2021-02-09 21:18:27.284> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612880286000}
+2021-02-09 21:18:27.284> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612880287000}
+2021-02-09 21:18:27.284> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612880288000}
+2021-02-09 21:18:27.284> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612880289000}
+2021-02-09 21:18:27.284> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612880290000}
+2021-02-09 21:18:27.285> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612880291000}
+2021-02-09 21:18:27.285> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91724","lon":"51.70881","autoId":"WDB2020181A712669","time":1612880292000}
+2021-02-09 21:18:27.285> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.70891","autoId":"WDB2020181A712669","time":1612880293000}
+2021-02-09 21:18:27.285> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.70902","autoId":"WDB2020181A712669","time":1612880294000}
+2021-02-09 21:18:27.286> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70913","autoId":"WDB2020181A712669","time":1612880295000}
+2021-02-09 21:18:27.286> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91700","lon":"51.70923","autoId":"WDB2020181A712669","time":1612880296000}
+2021-02-09 21:18:27.286> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70932","autoId":"WDB2020181A712669","time":1612880297000}
+2021-02-09 21:18:27.286> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91691","lon":"51.70941","autoId":"WDB2020181A712669","time":1612880298000}
+2021-02-09 21:18:27.286> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91687","lon":"51.70950","autoId":"WDB2020181A712669","time":1612880299000}
+2021-02-09 21:18:27.286> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91688","lon":"51.70961","autoId":"WDB2020181A712669","time":1612880300000}
+2021-02-09 21:18:27.286> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70972","autoId":"WDB2020181A712669","time":1612880301000}
+2021-02-09 21:18:27.287> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70981","autoId":"WDB2020181A712669","time":1612880302000}
+2021-02-09 21:18:27.287> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91725","lon":"51.70990","autoId":"WDB2020181A712669","time":1612880303000}
+2021-02-09 21:18:27.287> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91740","lon":"51.70993","autoId":"WDB2020181A712669","time":1612880304000}
+2021-02-09 21:18:27.287> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91756","lon":"51.70996","autoId":"WDB2020181A712669","time":1612880305000}
+2021-02-09 21:18:27.287> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91771","lon":"51.70999","autoId":"WDB2020181A712669","time":1612880306000}
+2021-02-09 21:18:32.300> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612880282000}
+2021-02-09 21:18:32.301> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612880283000}
+2021-02-09 21:18:32.301> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612880284000}
+2021-02-09 21:18:32.301> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612880285000}
+2021-02-09 21:18:32.302> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612880286000}
+2021-02-09 21:18:32.302> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612880287000}
+2021-02-09 21:18:32.302> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612880288000}
+2021-02-09 21:18:32.302> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612880289000}
+2021-02-09 21:18:32.303> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612880290000}
+2021-02-09 21:18:32.303> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612880291000}
+2021-02-09 21:18:32.304> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91724","lon":"51.70881","autoId":"WDB2020181A712669","time":1612880292000}
+2021-02-09 21:18:32.304> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.70891","autoId":"WDB2020181A712669","time":1612880293000}
+2021-02-09 21:18:32.305> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.70902","autoId":"WDB2020181A712669","time":1612880294000}
+2021-02-09 21:18:32.305> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70913","autoId":"WDB2020181A712669","time":1612880295000}
+2021-02-09 21:18:32.306> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91700","lon":"51.70923","autoId":"WDB2020181A712669","time":1612880296000}
+2021-02-09 21:18:32.307> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70932","autoId":"WDB2020181A712669","time":1612880297000}
+2021-02-09 21:18:32.308> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91691","lon":"51.70941","autoId":"WDB2020181A712669","time":1612880298000}
+2021-02-09 21:18:32.308> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91687","lon":"51.70950","autoId":"WDB2020181A712669","time":1612880299000}
+2021-02-09 21:18:32.309> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91688","lon":"51.70961","autoId":"WDB2020181A712669","time":1612880300000}
+2021-02-09 21:18:32.310> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70972","autoId":"WDB2020181A712669","time":1612880301000}
+2021-02-09 21:18:32.310> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70981","autoId":"WDB2020181A712669","time":1612880302000}
+2021-02-09 21:18:32.310> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91725","lon":"51.70990","autoId":"WDB2020181A712669","time":1612880303000}
+2021-02-09 21:18:32.311> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91740","lon":"51.70993","autoId":"WDB2020181A712669","time":1612880304000}
+2021-02-09 21:18:32.311> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91756","lon":"51.70996","autoId":"WDB2020181A712669","time":1612880305000}
+2021-02-09 21:18:32.311> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91771","lon":"51.70999","autoId":"WDB2020181A712669","time":1612880306000}
+2021-02-09 21:18:32.311> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91789","lon":"51.71006","autoId":"WDB2020181A712669","time":1612880307000}
+2021-02-09 21:18:32.311> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91800","lon":"51.71012","autoId":"WDB2020181A712669","time":1612880308000}
+2021-02-09 21:18:32.311> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91811","lon":"51.71019","autoId":"WDB2020181A712669","time":1612880309000}
+2021-02-09 21:18:32.311> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91820","lon":"51.71028","autoId":"WDB2020181A712669","time":1612880310000}
+2021-02-09 21:18:32.311> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91829","lon":"51.71036","autoId":"WDB2020181A712669","time":1612880311000}
+2021-02-09 21:18:37.298> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612880282000}
+2021-02-09 21:18:37.299> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612880283000}
+2021-02-09 21:18:37.299> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612880284000}
+2021-02-09 21:18:37.299> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612880285000}
+2021-02-09 21:18:37.300> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612880286000}
+2021-02-09 21:18:37.300> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612880287000}
+2021-02-09 21:18:37.300> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612880288000}
+2021-02-09 21:18:37.300> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612880289000}
+2021-02-09 21:18:37.301> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612880290000}
+2021-02-09 21:18:37.301> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612880291000}
+2021-02-09 21:18:37.301> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91724","lon":"51.70881","autoId":"WDB2020181A712669","time":1612880292000}
+2021-02-09 21:18:37.301> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.70891","autoId":"WDB2020181A712669","time":1612880293000}
+2021-02-09 21:18:37.301> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.70902","autoId":"WDB2020181A712669","time":1612880294000}
+2021-02-09 21:18:37.301> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70913","autoId":"WDB2020181A712669","time":1612880295000}
+2021-02-09 21:18:37.302> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91700","lon":"51.70923","autoId":"WDB2020181A712669","time":1612880296000}
+2021-02-09 21:18:37.302> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70932","autoId":"WDB2020181A712669","time":1612880297000}
+2021-02-09 21:18:37.302> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91691","lon":"51.70941","autoId":"WDB2020181A712669","time":1612880298000}
+2021-02-09 21:18:37.302> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91687","lon":"51.70950","autoId":"WDB2020181A712669","time":1612880299000}
+2021-02-09 21:18:37.302> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91688","lon":"51.70961","autoId":"WDB2020181A712669","time":1612880300000}
+2021-02-09 21:18:37.302> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70972","autoId":"WDB2020181A712669","time":1612880301000}
+2021-02-09 21:18:37.302> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70981","autoId":"WDB2020181A712669","time":1612880302000}
+2021-02-09 21:18:37.303> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91725","lon":"51.70990","autoId":"WDB2020181A712669","time":1612880303000}
+2021-02-09 21:18:37.303> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91740","lon":"51.70993","autoId":"WDB2020181A712669","time":1612880304000}
+2021-02-09 21:18:37.303> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91756","lon":"51.70996","autoId":"WDB2020181A712669","time":1612880305000}
+2021-02-09 21:18:37.303> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91771","lon":"51.70999","autoId":"WDB2020181A712669","time":1612880306000}
+2021-02-09 21:18:37.303> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91789","lon":"51.71006","autoId":"WDB2020181A712669","time":1612880307000}
+2021-02-09 21:18:37.303> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91800","lon":"51.71012","autoId":"WDB2020181A712669","time":1612880308000}
+2021-02-09 21:18:37.303> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91811","lon":"51.71019","autoId":"WDB2020181A712669","time":1612880309000}
+2021-02-09 21:18:37.304> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91820","lon":"51.71028","autoId":"WDB2020181A712669","time":1612880310000}
+2021-02-09 21:18:37.304> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91829","lon":"51.71036","autoId":"WDB2020181A712669","time":1612880311000}
+2021-02-09 21:18:37.304> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91835","lon":"51.71044","autoId":"WDB2020181A712669","time":1612880312000}
+2021-02-09 21:18:37.304> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91840","lon":"51.71053","autoId":"WDB2020181A712669","time":1612880313000}
+2021-02-09 21:18:37.304> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91840","lon":"51.71062","autoId":"WDB2020181A712669","time":1612880314000}
+2021-02-09 21:18:37.304> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91839","lon":"51.71072","autoId":"WDB2020181A712669","time":1612880315000}
+2021-02-09 21:18:37.304> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91841","lon":"51.71083","autoId":"WDB2020181A712669","time":1612880316000}
+2021-02-09 21:18:42.271> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612880282000}
+2021-02-09 21:18:42.271> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612880283000}
+2021-02-09 21:18:42.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612880284000}
+2021-02-09 21:18:42.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612880285000}
+2021-02-09 21:18:42.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612880286000}
+2021-02-09 21:18:42.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612880287000}
+2021-02-09 21:18:42.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612880288000}
+2021-02-09 21:18:42.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612880289000}
+2021-02-09 21:18:42.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612880290000}
+2021-02-09 21:18:42.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612880291000}
+2021-02-09 21:18:42.272> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91724","lon":"51.70881","autoId":"WDB2020181A712669","time":1612880292000}
+2021-02-09 21:18:42.273> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.70891","autoId":"WDB2020181A712669","time":1612880293000}
+2021-02-09 21:18:42.273> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.70902","autoId":"WDB2020181A712669","time":1612880294000}
+2021-02-09 21:18:42.273> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70913","autoId":"WDB2020181A712669","time":1612880295000}
+2021-02-09 21:18:42.273> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91700","lon":"51.70923","autoId":"WDB2020181A712669","time":1612880296000}
+2021-02-09 21:18:42.273> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70932","autoId":"WDB2020181A712669","time":1612880297000}
+2021-02-09 21:18:42.273> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91691","lon":"51.70941","autoId":"WDB2020181A712669","time":1612880298000}
+2021-02-09 21:18:42.274> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91687","lon":"51.70950","autoId":"WDB2020181A712669","time":1612880299000}
+2021-02-09 21:18:42.274> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91688","lon":"51.70961","autoId":"WDB2020181A712669","time":1612880300000}
+2021-02-09 21:18:42.274> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70972","autoId":"WDB2020181A712669","time":1612880301000}
+2021-02-09 21:18:42.274> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70981","autoId":"WDB2020181A712669","time":1612880302000}
+2021-02-09 21:18:42.274> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91725","lon":"51.70990","autoId":"WDB2020181A712669","time":1612880303000}
+2021-02-09 21:18:42.274> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91740","lon":"51.70993","autoId":"WDB2020181A712669","time":1612880304000}
+2021-02-09 21:18:42.274> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91756","lon":"51.70996","autoId":"WDB2020181A712669","time":1612880305000}
+2021-02-09 21:18:42.275> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91771","lon":"51.70999","autoId":"WDB2020181A712669","time":1612880306000}
+2021-02-09 21:18:42.275> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91789","lon":"51.71006","autoId":"WDB2020181A712669","time":1612880307000}
+2021-02-09 21:18:42.275> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91800","lon":"51.71012","autoId":"WDB2020181A712669","time":1612880308000}
+2021-02-09 21:18:42.275> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91811","lon":"51.71019","autoId":"WDB2020181A712669","time":1612880309000}
+2021-02-09 21:18:42.275> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91820","lon":"51.71028","autoId":"WDB2020181A712669","time":1612880310000}
+2021-02-09 21:18:42.275> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91829","lon":"51.71036","autoId":"WDB2020181A712669","time":1612880311000}
+2021-02-09 21:18:42.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91835","lon":"51.71044","autoId":"WDB2020181A712669","time":1612880312000}
+2021-02-09 21:18:42.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91840","lon":"51.71053","autoId":"WDB2020181A712669","time":1612880313000}
+2021-02-09 21:18:42.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91840","lon":"51.71062","autoId":"WDB2020181A712669","time":1612880314000}
+2021-02-09 21:18:42.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91839","lon":"51.71072","autoId":"WDB2020181A712669","time":1612880315000}
+2021-02-09 21:18:42.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91841","lon":"51.71083","autoId":"WDB2020181A712669","time":1612880316000}
+2021-02-09 21:18:42.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91845","lon":"51.71092","autoId":"WDB2020181A712669","time":1612880317000}
+2021-02-09 21:18:42.276> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91844","lon":"51.71105","autoId":"WDB2020181A712669","time":1612880318000}
+2021-02-09 21:18:42.277> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91844","lon":"51.71115","autoId":"WDB2020181A712669","time":1612880319000}
+2021-02-09 21:18:42.277> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91840","lon":"51.71124","autoId":"WDB2020181A712669","time":1612880320000}
+2021-02-09 21:18:42.277> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91845","lon":"51.71133","autoId":"WDB2020181A712669","time":1612880321000}
+2021-02-09 21:21:08.638> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612880463000}
+2021-02-09 21:21:08.638> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612880464000}
+2021-02-09 21:21:08.639> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612880465000}
+2021-02-09 21:21:08.639> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612880466000}
+2021-02-09 21:21:08.639> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612880467000}
+2021-02-09 21:21:08.639> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612880468000}
+2021-02-09 21:21:13.425> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612880463000}
+2021-02-09 21:21:13.426> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612880464000}
+2021-02-09 21:21:13.426> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612880465000}
+2021-02-09 21:21:13.426> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612880466000}
+2021-02-09 21:21:13.427> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612880467000}
+2021-02-09 21:21:13.427> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612880468000}
+2021-02-09 21:21:13.428> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612880469000}
+2021-02-09 21:21:13.428> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612880470000}
+2021-02-09 21:21:13.428> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612880471000}
+2021-02-09 21:21:13.428> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612880472000}
+2021-02-09 22:10:45.614> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612883440000}
+2021-02-09 22:10:45.618> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612883441000}
+2021-02-09 22:10:45.619> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612883442000}
+2021-02-09 22:10:45.619> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612883443000}
+2021-02-09 22:10:45.619> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612883444000}
+2021-02-09 22:10:45.620> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612883445000}
+2021-02-09 22:10:50.341> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612883446000}
+2021-02-09 22:10:50.342> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612883447000}
+2021-02-09 22:10:50.342> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612883448000}
+2021-02-09 22:10:50.342> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612883449000}
+2021-02-09 22:10:55.348> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91724","lon":"51.70881","autoId":"WDB2020181A712669","time":1612883450000}
+2021-02-09 22:10:55.349> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.70891","autoId":"WDB2020181A712669","time":1612883451000}
+2021-02-09 22:10:55.350> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.70902","autoId":"WDB2020181A712669","time":1612883452000}
+2021-02-09 22:10:55.350> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70913","autoId":"WDB2020181A712669","time":1612883453000}
+2021-02-09 22:10:55.351> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91700","lon":"51.70923","autoId":"WDB2020181A712669","time":1612883454000}
+2021-02-09 22:11:00.338> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70932","autoId":"WDB2020181A712669","time":1612883455000}
+2021-02-09 22:11:00.339> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91691","lon":"51.70941","autoId":"WDB2020181A712669","time":1612883456000}
+2021-02-09 22:11:00.339> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91687","lon":"51.70950","autoId":"WDB2020181A712669","time":1612883457000}
+2021-02-09 22:11:00.339> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91688","lon":"51.70961","autoId":"WDB2020181A712669","time":1612883458000}
+2021-02-09 22:11:00.339> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70972","autoId":"WDB2020181A712669","time":1612883459000}
+2021-02-09 22:11:05.349> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70981","autoId":"WDB2020181A712669","time":1612883460000}
+2021-02-09 22:11:05.350> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91725","lon":"51.70990","autoId":"WDB2020181A712669","time":1612883461000}
+2021-02-09 22:11:05.351> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91740","lon":"51.70993","autoId":"WDB2020181A712669","time":1612883462000}
+2021-02-09 22:11:05.351> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91756","lon":"51.70996","autoId":"WDB2020181A712669","time":1612883463000}
+2021-02-09 22:11:05.352> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91771","lon":"51.70999","autoId":"WDB2020181A712669","time":1612883464000}
+2021-02-09 22:11:10.355> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91789","lon":"51.71006","autoId":"WDB2020181A712669","time":1612883465000}
+2021-02-09 22:11:10.356> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91800","lon":"51.71012","autoId":"WDB2020181A712669","time":1612883466000}
+2021-02-09 22:11:10.356> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91811","lon":"51.71019","autoId":"WDB2020181A712669","time":1612883467000}
+2021-02-09 22:11:10.357> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91820","lon":"51.71028","autoId":"WDB2020181A712669","time":1612883468000}
+2021-02-09 22:11:10.357> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91829","lon":"51.71036","autoId":"WDB2020181A712669","time":1612883469000}
+2021-02-09 22:11:15.351> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91835","lon":"51.71044","autoId":"WDB2020181A712669","time":1612883470000}
+2021-02-09 22:11:15.352> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91840","lon":"51.71053","autoId":"WDB2020181A712669","time":1612883471000}
+2021-02-09 22:11:15.353> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91840","lon":"51.71062","autoId":"WDB2020181A712669","time":1612883472000}
+2021-02-09 22:11:15.353> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91839","lon":"51.71072","autoId":"WDB2020181A712669","time":1612883473000}
+2021-02-09 22:11:15.354> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91841","lon":"51.71083","autoId":"WDB2020181A712669","time":1612883474000}
+2021-02-09 22:11:20.354> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91845","lon":"51.71092","autoId":"WDB2020181A712669","time":1612883475000}
+2021-02-09 22:11:20.356> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91844","lon":"51.71105","autoId":"WDB2020181A712669","time":1612883476000}
+2021-02-09 22:11:20.356> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91844","lon":"51.71115","autoId":"WDB2020181A712669","time":1612883477000}
+2021-02-09 22:11:20.357> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91840","lon":"51.71124","autoId":"WDB2020181A712669","time":1612883478000}
+2021-02-09 22:11:20.357> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91845","lon":"51.71133","autoId":"WDB2020181A712669","time":1612883479000}
+2021-02-09 22:11:20.358> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91842","lon":"51.71143","autoId":"WDB2020181A712669","time":1612883480000}
+2021-02-09 22:11:25.340> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91839","lon":"51.71152","autoId":"WDB2020181A712669","time":1612883481000}
+2021-02-09 22:11:25.341> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91833","lon":"51.71162","autoId":"WDB2020181A712669","time":1612883482000}
+2021-02-09 22:11:25.342> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91822","lon":"51.71169","autoId":"WDB2020181A712669","time":1612883483000}
+2021-02-09 22:11:25.342> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91808","lon":"51.71177","autoId":"WDB2020181A712669","time":1612883484000}
+2021-02-09 22:11:30.338> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91803","lon":"51.71187","autoId":"WDB2020181A712669","time":1612883485000}
+2021-02-09 22:11:30.339> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91787","lon":"51.71194","autoId":"WDB2020181A712669","time":1612883486000}
+2021-02-09 22:11:30.339> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91771","lon":"51.71194","autoId":"WDB2020181A712669","time":1612883487000}
+2021-02-09 22:11:30.339> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91756","lon":"51.71190","autoId":"WDB2020181A712669","time":1612883488000}
+2021-02-09 22:11:30.340> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91741","lon":"51.71191","autoId":"WDB2020181A712669","time":1612883489000}
+2021-02-09 22:11:35.442> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.71201","autoId":"WDB2020181A712669","time":1612883490000}
+2021-02-09 22:11:35.443> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91725","lon":"51.71207","autoId":"WDB2020181A712669","time":1612883491000}
+2021-02-09 22:11:35.443> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.71216","autoId":"WDB2020181A712669","time":1612883492000}
+2021-02-09 22:11:35.444> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.71226","autoId":"WDB2020181A712669","time":1612883493000}
+2021-02-09 22:11:35.444> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91704","lon":"51.71234","autoId":"WDB2020181A712669","time":1612883494000}
+2021-02-09 22:11:40.336> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91695","lon":"51.71243","autoId":"WDB2020181A712669","time":1612883495000}
+2021-02-09 22:11:40.337> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91686","lon":"51.71254","autoId":"WDB2020181A712669","time":1612883496000}
+2021-02-09 22:11:40.337> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91678","lon":"51.71262","autoId":"WDB2020181A712669","time":1612883497000}
+2021-02-09 22:11:40.339> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91669","lon":"51.71273","autoId":"WDB2020181A712669","time":1612883498000}
+2021-02-09 22:11:40.339> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91664","lon":"51.71285","autoId":"WDB2020181A712669","time":1612883499000}
+2021-02-09 22:12:12.840> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91655","lon":"51.71295","autoId":"WDB2020181A712669","time":1612883500000}
+2021-02-09 22:12:12.841> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612883527000}
+2021-02-09 22:12:12.841> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612883528000}
+2021-02-09 22:12:12.841> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612883529000}
+2021-02-09 22:12:12.842> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612883530000}
+2021-02-09 22:12:12.842> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612883531000}
+2021-02-09 22:12:12.842> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612883532000}
+2021-02-09 22:12:17.631> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612883533000}
+2021-02-09 22:12:17.632> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612883534000}
+2021-02-09 22:12:17.632> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612883535000}
+2021-02-09 22:12:17.632> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612883536000}
+2021-02-09 22:14:16.789> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91724","lon":"51.70881","autoId":"WDB2020181A712669","time":1612883537000}
+2021-02-09 22:14:16.789> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.70891","autoId":"WDB2020181A712669","time":1612883538000}
+2021-02-09 22:14:16.789> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.70902","autoId":"WDB2020181A712669","time":1612883539000}
+2021-02-09 22:14:16.790> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612883651000}
+2021-02-09 22:14:16.790> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612883652000}
+2021-02-09 22:14:16.790> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612883653000}
+2021-02-09 22:14:16.790> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612883654000}
+2021-02-09 22:14:16.790> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612883655000}
+2021-02-09 22:14:16.790> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612883656000}
+2021-02-09 22:14:21.584> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612883657000}
+2021-02-09 22:14:21.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612883658000}
+2021-02-09 22:14:21.587> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612883659000}
+2021-02-09 22:14:21.587> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612883660000}
+2021-02-09 22:14:26.583> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91724","lon":"51.70881","autoId":"WDB2020181A712669","time":1612883661000}
+2021-02-09 22:14:26.585> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.70891","autoId":"WDB2020181A712669","time":1612883662000}
+2021-02-09 22:14:26.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.70902","autoId":"WDB2020181A712669","time":1612883663000}
+2021-02-09 22:14:26.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70913","autoId":"WDB2020181A712669","time":1612883664000}
+2021-02-09 22:14:26.587> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91700","lon":"51.70923","autoId":"WDB2020181A712669","time":1612883665000}
+2021-02-09 22:14:31.584> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70932","autoId":"WDB2020181A712669","time":1612883666000}
+2021-02-09 22:14:31.588> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91691","lon":"51.70941","autoId":"WDB2020181A712669","time":1612883667000}
+2021-02-09 22:14:31.590> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91687","lon":"51.70950","autoId":"WDB2020181A712669","time":1612883668000}
+2021-02-09 22:14:31.591> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91688","lon":"51.70961","autoId":"WDB2020181A712669","time":1612883669000}
+2021-02-09 22:14:31.591> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70972","autoId":"WDB2020181A712669","time":1612883670000}
+2021-02-09 22:14:36.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70981","autoId":"WDB2020181A712669","time":1612883671000}
+2021-02-09 22:14:36.587> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91725","lon":"51.70990","autoId":"WDB2020181A712669","time":1612883672000}
+2021-02-09 22:14:36.588> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91740","lon":"51.70993","autoId":"WDB2020181A712669","time":1612883673000}
+2021-02-09 22:14:36.588> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91756","lon":"51.70996","autoId":"WDB2020181A712669","time":1612883674000}
+2021-02-09 22:14:36.588> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91771","lon":"51.70999","autoId":"WDB2020181A712669","time":1612883675000}
+2021-02-09 22:14:41.587> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91789","lon":"51.71006","autoId":"WDB2020181A712669","time":1612883676000}
+2021-02-09 22:14:41.588> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91800","lon":"51.71012","autoId":"WDB2020181A712669","time":1612883677000}
+2021-02-09 22:14:41.588> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91811","lon":"51.71019","autoId":"WDB2020181A712669","time":1612883678000}
+2021-02-09 22:14:41.589> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91820","lon":"51.71028","autoId":"WDB2020181A712669","time":1612883679000}
+2021-02-09 22:14:41.589> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91829","lon":"51.71036","autoId":"WDB2020181A712669","time":1612883680000}
+2021-02-09 22:14:46.584> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91835","lon":"51.71044","autoId":"WDB2020181A712669","time":1612883681000}
+2021-02-09 22:14:46.585> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91840","lon":"51.71053","autoId":"WDB2020181A712669","time":1612883682000}
+2021-02-09 22:14:46.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91840","lon":"51.71062","autoId":"WDB2020181A712669","time":1612883683000}
+2021-02-09 22:14:46.587> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91839","lon":"51.71072","autoId":"WDB2020181A712669","time":1612883684000}
+2021-02-09 22:14:46.588> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91841","lon":"51.71083","autoId":"WDB2020181A712669","time":1612883685000}
+2021-02-09 22:14:51.602> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91845","lon":"51.71092","autoId":"WDB2020181A712669","time":1612883686000}
+2021-02-09 22:14:51.604> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91844","lon":"51.71105","autoId":"WDB2020181A712669","time":1612883687000}
+2021-02-09 22:14:51.605> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91844","lon":"51.71115","autoId":"WDB2020181A712669","time":1612883688000}
+2021-02-09 22:14:51.605> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91840","lon":"51.71124","autoId":"WDB2020181A712669","time":1612883689000}
+2021-02-09 22:14:51.605> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91845","lon":"51.71133","autoId":"WDB2020181A712669","time":1612883690000}
+2021-02-09 22:14:56.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91842","lon":"51.71143","autoId":"WDB2020181A712669","time":1612883691000}
+2021-02-09 22:14:56.587> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91839","lon":"51.71152","autoId":"WDB2020181A712669","time":1612883692000}
+2021-02-09 22:14:56.587> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91833","lon":"51.71162","autoId":"WDB2020181A712669","time":1612883693000}
+2021-02-09 22:14:56.588> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91822","lon":"51.71169","autoId":"WDB2020181A712669","time":1612883694000}
+2021-02-09 22:14:56.589> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91808","lon":"51.71177","autoId":"WDB2020181A712669","time":1612883695000}
+2021-02-09 22:15:01.587> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91803","lon":"51.71187","autoId":"WDB2020181A712669","time":1612883696000}
+2021-02-09 22:15:01.588> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91787","lon":"51.71194","autoId":"WDB2020181A712669","time":1612883697000}
+2021-02-09 22:15:01.588> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91771","lon":"51.71194","autoId":"WDB2020181A712669","time":1612883698000}
+2021-02-09 22:15:01.589> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91756","lon":"51.71190","autoId":"WDB2020181A712669","time":1612883699000}
+2021-02-09 22:15:01.589> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91741","lon":"51.71191","autoId":"WDB2020181A712669","time":1612883700000}
+2021-02-09 22:15:06.584> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.71201","autoId":"WDB2020181A712669","time":1612883701000}
+2021-02-09 22:15:06.585> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91725","lon":"51.71207","autoId":"WDB2020181A712669","time":1612883702000}
+2021-02-09 22:15:06.585> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.71216","autoId":"WDB2020181A712669","time":1612883703000}
+2021-02-09 22:15:06.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.71226","autoId":"WDB2020181A712669","time":1612883704000}
+2021-02-09 22:15:06.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91704","lon":"51.71234","autoId":"WDB2020181A712669","time":1612883705000}
+2021-02-09 22:15:11.580> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91695","lon":"51.71243","autoId":"WDB2020181A712669","time":1612883706000}
+2021-02-09 22:15:11.581> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91686","lon":"51.71254","autoId":"WDB2020181A712669","time":1612883707000}
+2021-02-09 22:15:11.582> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91678","lon":"51.71262","autoId":"WDB2020181A712669","time":1612883708000}
+2021-02-09 22:15:11.582> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91669","lon":"51.71273","autoId":"WDB2020181A712669","time":1612883709000}
+2021-02-09 22:15:11.583> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91664","lon":"51.71285","autoId":"WDB2020181A712669","time":1612883710000}
+2021-02-09 22:15:16.577> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91655","lon":"51.71295","autoId":"WDB2020181A712669","time":1612883711000}
+2021-02-09 22:15:16.578> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91647","lon":"51.71304","autoId":"WDB2020181A712669","time":1612883712000}
+2021-02-09 22:15:16.578> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91646","lon":"51.71314","autoId":"WDB2020181A712669","time":1612883713000}
+2021-02-09 22:15:16.579> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91641","lon":"51.71323","autoId":"WDB2020181A712669","time":1612883714000}
+2021-02-09 22:15:16.579> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91624","lon":"51.71330","autoId":"WDB2020181A712669","time":1612883715000}
+2021-02-09 22:15:21.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91612","lon":"51.71337","autoId":"WDB2020181A712669","time":1612883716000}
+2021-02-09 22:15:21.587> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91598","lon":"51.71343","autoId":"WDB2020181A712669","time":1612883717000}
+2021-02-09 22:15:21.587> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91588","lon":"51.71351","autoId":"WDB2020181A712669","time":1612883718000}
+2021-02-09 22:15:21.588> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91577","lon":"51.71358","autoId":"WDB2020181A712669","time":1612883719000}
+2021-02-09 22:15:21.589> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91566","lon":"51.71365","autoId":"WDB2020181A712669","time":1612883720000}
+2021-02-09 22:15:34.266> [jdev.server.app.ServerMain:48] Starting ServerMain on WIN-34AFSSTV7OA with PID 3364 (C:\javadev\my-toll\server-core\build\classes\java\main started by user in C:\javadev\my-toll)
+2021-02-09 22:15:34.268> [jdev.server.app.ServerMain:637] No active profile set, falling back to default profiles: default
+2021-02-09 22:15:34.448> [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2021-02-09 22:15:34.449> [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@131520a2: startup date [Tue Feb 09 22:15:34 NOVT 2021]; root of context hierarchy
+2021-02-09 22:15:35.671> [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 8080 (http)
+2021-02-09 22:15:35.679> [org.apache.catalina.core.StandardService:179] Starting service Tomcat
+2021-02-09 22:15:35.680> [org.apache.catalina.core.StandardEngine:179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2021-02-09 22:15:35.757> [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] Initializing Spring embedded WebApplicationContext
+2021-02-09 22:15:35.758> [org.springframework.web.context.ContextLoader:276] Root WebApplicationContext: initialization completed in 1309 ms
+2021-02-09 22:15:35.879> [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-09 22:15:35.884> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-09 22:15:35.884> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-09 22:15:35.884> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-02-09 22:15:35.885> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+2021-02-09 22:15:36.136> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@131520a2: startup date [Tue Feb 09 22:15:34 NOVT 2021]; root of context hierarchy
+2021-02-09 22:15:36.191> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/upload],methods=[POST]}" onto public jdev.dto.TrackDTO jdev.server.controllers.TrackerController.receiveWrappedTrackingList(jdev.dto.TrackDTO) throws com.fasterxml.jackson.core.JsonProcessingException
+2021-02-09 22:15:36.195> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-02-09 22:15:36.196> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-02-09 22:15:36.227> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 22:15:36.227> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 22:15:36.258> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 22:15:36.286> [org.springframework.boot.autoconfigure.thymeleaf.AbstractTemplateResolverConfiguration:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-09 22:15:36.612> [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2021-02-09 22:15:36.646> [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] Registering beans for JMX exposure on startup
+2021-02-09 22:15:36.659> [org.apache.coyote.http11.Http11NioProtocol:179] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-09 22:15:36.667> [org.apache.coyote.http11.Http11NioProtocol:179] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-09 22:15:36.677> [org.apache.tomcat.util.net.NioSelectorPool:179] Using a shared selector for servlet write/read
+2021-02-09 22:15:36.710> [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] Tomcat started on port(s): 8080 (http)
+2021-02-09 22:15:36.714> [jdev.server.app.ServerMain:57] Started ServerMain in 2.676 seconds (JVM running for 3.485)
+2021-02-09 22:15:59.866> [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-02-09 22:15:59.867> [org.springframework.web.servlet.DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2021-02-09 22:15:59.885> [org.springframework.web.servlet.DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2021-02-09 22:15:59.977> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91554","lon":"51.71372","autoId":"WDB2020181A712669","time":1612883721000}
+2021-02-09 22:15:59.977> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91540","lon":"51.71378","autoId":"WDB2020181A712669","time":1612883722000}
+2021-02-09 22:15:59.977> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91529","lon":"51.71385","autoId":"WDB2020181A712669","time":1612883723000}
+2021-02-09 22:15:59.977> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91521","lon":"51.71392","autoId":"WDB2020181A712669","time":1612883724000}
+2021-02-09 22:15:59.977> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612883754000}
+2021-02-09 22:15:59.978> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612883755000}
+2021-02-09 22:15:59.978> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612883756000}
+2021-02-09 22:15:59.978> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612883757000}
+2021-02-09 22:15:59.978> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612883758000}
+2021-02-09 22:15:59.978> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612883759000}
+2021-02-09 22:16:04.615> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612883760000}
+2021-02-09 22:16:04.615> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612883761000}
+2021-02-09 22:16:04.615> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612883762000}
+2021-02-09 22:16:04.615> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612883763000}
+2021-02-09 22:16:09.585> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91724","lon":"51.70881","autoId":"WDB2020181A712669","time":1612883764000}
+2021-02-09 22:16:09.585> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.70891","autoId":"WDB2020181A712669","time":1612883765000}
+2021-02-09 22:16:09.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.70902","autoId":"WDB2020181A712669","time":1612883766000}
+2021-02-09 22:16:09.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70913","autoId":"WDB2020181A712669","time":1612883767000}
+2021-02-09 22:16:09.586> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91700","lon":"51.70923","autoId":"WDB2020181A712669","time":1612883768000}
+2021-02-09 22:18:38.720> [jdev.server.app.ServerMain:48] Starting ServerMain on WIN-34AFSSTV7OA with PID 6756 (C:\javadev\my-toll\server-core\build\classes\java\main started by user in C:\javadev\my-toll)
+2021-02-09 22:18:38.727> [jdev.server.app.ServerMain:637] No active profile set, falling back to default profiles: default
+2021-02-09 22:18:38.918> [org.hibernate.validator.internal.util.Version:30] HV000001: Hibernate Validator 5.3.5.Final
+2021-02-09 22:18:38.927> [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27506efb: startup date [Tue Feb 09 22:18:38 NOVT 2021]; root of context hierarchy
+2021-02-09 22:18:40.147> [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 8080 (http)
+2021-02-09 22:18:40.156> [org.apache.catalina.core.StandardService:179] Starting service Tomcat
+2021-02-09 22:18:40.157> [org.apache.catalina.core.StandardEngine:179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2021-02-09 22:18:40.242> [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] Initializing Spring embedded WebApplicationContext
+2021-02-09 22:18:40.243> [org.springframework.web.context.ContextLoader:276] Root WebApplicationContext: initialization completed in 1316 ms
+2021-02-09 22:18:40.364> [org.springframework.boot.web.servlet.ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-09 22:18:40.368> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-09 22:18:40.368> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-09 22:18:40.368> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-02-09 22:18:40.368> [org.springframework.boot.web.servlet.FilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+2021-02-09 22:18:40.616> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27506efb: startup date [Tue Feb 09 22:18:38 NOVT 2021]; root of context hierarchy
+2021-02-09 22:18:40.666> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/upload],methods=[POST]}" onto public jdev.dto.TrackDTO jdev.server.controllers.TrackerController.receiveWrappedTrackingList(jdev.dto.TrackDTO) throws com.fasterxml.jackson.core.JsonProcessingException
+2021-02-09 22:18:40.668> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-02-09 22:18:40.668> [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-02-09 22:18:40.694> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 22:18:40.694> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 22:18:40.727> [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-09 22:18:40.755> [org.springframework.boot.autoconfigure.thymeleaf.AbstractTemplateResolverConfiguration:60] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-02-09 22:18:41.073> [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2021-02-09 22:18:41.121> [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] Registering beans for JMX exposure on startup
+2021-02-09 22:18:41.134> [org.apache.coyote.http11.Http11NioProtocol:179] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-09 22:18:41.141> [org.apache.coyote.http11.Http11NioProtocol:179] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-09 22:18:41.153> [org.apache.tomcat.util.net.NioSelectorPool:179] Using a shared selector for servlet write/read
+2021-02-09 22:18:41.171> [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] Tomcat started on port(s): 8080 (http)
+2021-02-09 22:18:41.175> [jdev.server.app.ServerMain:57] Started ServerMain in 2.668 seconds (JVM running for 3.471)
+2021-02-09 22:19:04.546> [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-02-09 22:19:04.547> [org.springframework.web.servlet.DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2021-02-09 22:19:04.565> [org.springframework.web.servlet.DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2021-02-09 22:19:04.653> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70932","autoId":"WDB2020181A712669","time":1612883769000}
+2021-02-09 22:19:04.653> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70799","autoId":"WDB2020181A712669","time":1612883939000}
+2021-02-09 22:19:04.653> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91790","lon":"51.70809","autoId":"WDB2020181A712669","time":1612883940000}
+2021-02-09 22:19:04.654> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91792","lon":"51.70818","autoId":"WDB2020181A712669","time":1612883941000}
+2021-02-09 22:19:04.654> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91786","lon":"51.70826","autoId":"WDB2020181A712669","time":1612883942000}
+2021-02-09 22:19:04.654> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91776","lon":"51.70833","autoId":"WDB2020181A712669","time":1612883943000}
+2021-02-09 22:19:04.654> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91765","lon":"51.70840","autoId":"WDB2020181A712669","time":1612883944000}
+2021-02-09 22:19:09.312> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91754","lon":"51.70847","autoId":"WDB2020181A712669","time":1612883945000}
+2021-02-09 22:19:09.312> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91744","lon":"51.70854","autoId":"WDB2020181A712669","time":1612883946000}
+2021-02-09 22:19:09.313> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91736","lon":"51.70863","autoId":"WDB2020181A712669","time":1612883947000}
+2021-02-09 22:19:09.313> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91733","lon":"51.70872","autoId":"WDB2020181A712669","time":1612883948000}
+2021-02-09 22:19:14.307> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91724","lon":"51.70881","autoId":"WDB2020181A712669","time":1612883949000}
+2021-02-09 22:19:14.307> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91715","lon":"51.70891","autoId":"WDB2020181A712669","time":1612883950000}
+2021-02-09 22:19:14.308> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91709","lon":"51.70902","autoId":"WDB2020181A712669","time":1612883951000}
+2021-02-09 22:19:14.308> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70913","autoId":"WDB2020181A712669","time":1612883952000}
+2021-02-09 22:19:14.308> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91700","lon":"51.70923","autoId":"WDB2020181A712669","time":1612883953000}
+2021-02-09 22:19:19.306> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70932","autoId":"WDB2020181A712669","time":1612883954000}
+2021-02-09 22:19:19.307> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91691","lon":"51.70941","autoId":"WDB2020181A712669","time":1612883955000}
+2021-02-09 22:19:19.307> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91687","lon":"51.70950","autoId":"WDB2020181A712669","time":1612883956000}
+2021-02-09 22:19:19.308> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91688","lon":"51.70961","autoId":"WDB2020181A712669","time":1612883957000}
+2021-02-09 22:19:19.308> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91697","lon":"51.70972","autoId":"WDB2020181A712669","time":1612883958000}
+2021-02-09 22:19:24.307> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91707","lon":"51.70981","autoId":"WDB2020181A712669","time":1612883959000}
+2021-02-09 22:19:24.307> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91725","lon":"51.70990","autoId":"WDB2020181A712669","time":1612883960000}
+2021-02-09 22:19:24.308> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91740","lon":"51.70993","autoId":"WDB2020181A712669","time":1612883961000}
+2021-02-09 22:19:24.308> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91756","lon":"51.70996","autoId":"WDB2020181A712669","time":1612883962000}
+2021-02-09 22:19:24.308> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91771","lon":"51.70999","autoId":"WDB2020181A712669","time":1612883963000}
+2021-02-09 22:19:24.308> [jdev.server.controllers.TrackerController:1257] {"lat":"84.91789","lon":"51.71006","autoId":"WDB2020181A712669","time":1612883964000}

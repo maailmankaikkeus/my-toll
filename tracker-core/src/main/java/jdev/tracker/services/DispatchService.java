@@ -1,19 +1,19 @@
 package jdev.tracker.services;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import jdev.dto.*;
+import jdev.dto.PointDTO;
+import jdev.dto.TrackDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class DispatchService {
@@ -48,16 +48,7 @@ public class DispatchService {
             HttpEntity<TrackDTO> requestEntity = new HttpEntity<>(td, headers);
 
             TrackDTO response = restTemplate.postForObject(uri, td, TrackDTO.class);
-//            restTemplate.postForObject(uri, requestEntity, String.class);
-//            restTemplate.postForLocation(uri, td);
-//            restTemplate.postForLocation(uri, requestEntity);
-//            restTemplate.postForEntity(uri, td, String.class);
-//            restTemplate.postForEntity(uri, requestEntity, String.class);
-//            restTemplate.exchange(uri, HttpMethod.POST, requestEntity, String.class);
-//            ResponseEntity<TrackDTO> response =
-//                    restTemplate.exchange(uri, HttpMethod.POST, requestEntity, TrackDTO.class);
 
-//            log.info(response.getBody().toJson());
             if (response != null)
                 log.info(response.toJson());
 
