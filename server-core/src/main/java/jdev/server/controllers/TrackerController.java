@@ -36,12 +36,12 @@ public class TrackerController {
     }
 
     @GetMapping(value = "/download")
-    private TrackDTO getLastTrackPoints (@RequestParam(value = "last") String num) throws JsonProcessingException {
-        long count = trackPointsRepository.count();
+    private TrackDTO getLastTrackPoints (@RequestParam(value = "last") String num,
+                                         @RequestParam(value = "vin" ) String autoId)
+            throws JsonProcessingException {
+
         List<Integer> idsList = new ArrayList<>();
-        for (long i = count-Long.parseLong(num)+1; i<=count; i++)
-            idsList.add((int)i);
-        all = trackPointsRepository.findAll(idsList);
+        all = trackPointsRepository.findLastVin(Integer.parseInt(num), autoId);
         log.info(all.toString());
         ArrayList<PointDTO> pointList = new ArrayList<PointDTO>() {{
             for (TrackPoint item : all)

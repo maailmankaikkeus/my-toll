@@ -66,7 +66,7 @@ public class KmlHandler extends DefaultHandler {
                 lpoint.add(new PointDTO(
                         replaceCommaByDot(formatDouble(fields[0])),
                         replaceCommaByDot(formatDouble(fields[1])),
-                        "WDB2020181A712669",
+                        "WDB2020181A712668",
                         currentTime));
             }
             //помечаем, что больше склеивать строку не надо

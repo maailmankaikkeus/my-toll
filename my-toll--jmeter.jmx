@@ -923,13 +923,15 @@
       </ThreadGroup>
       <hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST (TrackDTO)" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
+              <elementProp name="track" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&quot;track&quot;:[{&quot;lat&quot;:&quot;1&quot;,&quot;lon&quot;:&quot;2&quot;,&quot;autoId&quot;:&quot;3&quot;,&quot;time&quot;:4},{&quot;lat&quot;:&quot;1&quot;,&quot;lon&quot;:&quot;2&quot;,&quot;autoId&quot;:&quot;3&quot;,&quot;time&quot;:4}]}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">track</stringProp>
+                <stringProp name="HTTPArgument.content_type">application/json;charset=UTF-8</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -942,8 +944,9 @@
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
           <stringProp name="TestPlan.comments">tracker-core::DispatchService.post(TrackDTO) ---&gt; server-core::TrackerController.receiveWrappedTrackingList(TrackDTO):TrackDTO</stringProp>
@@ -994,6 +997,8 @@
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">8</intProp>
+            <stringProp name="Assertion.scope">variable</stringProp>
+            <stringProp name="Scope.variable"></stringProp>
           </ResponseAssertion>
           <hashTree/>
         </hashTree>

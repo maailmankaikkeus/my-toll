@@ -1,0 +1,6 @@
+2021-01-28 22:29:34.803> [jdev.server.controllers.TrackerController:1257] {"lat":"1","lon":"2","autoId":"3","time":4}
+2021-01-28 22:29:34.806> [jdev.server.controllers.TrackerController:1257] {"lat":"1","lon":"2","autoId":"3","time":4}
+2021-01-28 22:29:56.048> [jdev.server.controllers.TrackerController:1257] {"lat":"1","lon":"2","autoId":"3","time":4}
+2021-01-28 22:29:56.051> [jdev.server.controllers.TrackerController:1257] {"lat":"1","lon":"2","autoId":"3","time":4}
+2021-01-28 22:30:09.846> [jdev.server.controllers.TrackerController:1257] {"lat":"1","lon":"2","autoId":"3","time":4}
+2021-01-28 22:30:09.848> [jdev.server.controllers.TrackerController:1257] {"lat":"1","lon":"2","autoId":"3","time":4}
